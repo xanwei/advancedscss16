@@ -1,8 +1,12 @@
-./variables
-body
-background-color {$background-color gray: #c3cfe2
-}
-text background-color{$background-color white: #fff
-}
-footer background-color{$background-color - purple/blue: #686de0
-}
+// variables
+
+$color-gray: #c3cfe2;
+$color-white: #fff;
+$color-purple-blue: #686de0;
+$color-purple-blue: #aaabce;
+
+@mixin standard-text {
+    max-width: 700px;
+    text-align: center;
+    padding-top:1em;
+  }
