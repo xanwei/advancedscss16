@@ -15,8 +15,8 @@ header {
     border: 0em;
     border-radius: 25px;
     width: 400px;
-    height: 550px;
-    margin: 15px;
+    height: 650px;
+    margin: 35px;
     box-shadow: 20px 20px 35px rgb(109, 106, 106);
 }
 
@@ -25,6 +25,7 @@ p {
     padding-top: 35px;
     padding-right: 35px;
     font-size: x-large;
+    border-radius: 25px;
 }
 
 .card-tekst1 {
@@ -34,6 +35,8 @@ p {
 .card-tekst2 {
     background-color: #686de0;
     color: #fff;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 35px rgb(109, 106, 106);
     padding-left: 50px;
     padding-top: 60px;
     padding-bottom: 0px;
@@ -45,6 +48,7 @@ p {
     padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 100px;
+    box-shadow: 35px rgb(109, 106, 106);
 }
 
 .dot {
@@ -69,5 +73,4 @@ img {
     margin-left: 130px;
     margin-bottom: -222px;
 }
-
 
